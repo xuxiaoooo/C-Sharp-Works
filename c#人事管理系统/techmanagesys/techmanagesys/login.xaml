@@ -1,0 +1,40 @@
+﻿<Window x:Class="techmanagesys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:techmanagesys"
+        mc:Ignorable="d"
+        Title="高校人事信息管理系统" Height="450" Width="800" ResizeMode="CanMinimize" Icon="Resource/人.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFD3E1FF"/>
+                <GradientStop Color="#FF02DAF9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Margin="115,65,104.6,260.4" Content="高校人事信息管理系统" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="YouYuan" FontSize="22" FontWeight="Bold" Foreground="#FF036E7D"/>
+        <TextBox x:Name="account"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="账号"
+pu:TextBoxHelper.Icon="&#xf11c;"
+pu:TextBoxHelper.FocusedBorderBrush="#B5B5B5"
+pu:TextBoxHelper.FocusedShadowColor="#B5B5B5"
+pu:TextBoxHelper.IsClearButtonVisible="True" Margin="250,139,243.6,201.4" />
+        <PasswordBox x:Name="password"  Height="30"
+Width="200"
+pu:PasswordBoxHelper.Watermark="密码"
+pu:PasswordBoxHelper.Icon="&#xf11c;"
+pu:PasswordBoxHelper.FocusedBorderBrush="#B5B5B5"
+pu:PasswordBoxHelper.FocusedShadowColor="#B5B5B5"
+pu:PasswordBoxHelper.IsShowPwdButtonVisible="True" Margin="250,195,243.6,145.4" />
+        <Button x:Name="btnlogin"
+Content="登录"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+Background="#C80249C0"
+pu:ButtonHelper.HoverBrush="#000000"
+pu:ButtonHelper.CornerRadius="5" Margin="315,300,308.6,85" Click="btnlogin_Click" />
+    </Grid>
+</Window>

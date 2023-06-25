@@ -1,0 +1,15 @@
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\bin\Debug\餐饮管理系统.exe.config
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\bin\Debug\餐饮管理系统.exe
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\bin\Debug\餐饮管理系统.pdb
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.csproj.AssemblyReference.cache
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Desk.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Form1.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Login.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Menu.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Order.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Pay.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.Properties.Resources.resources
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.csproj.GenerateResource.cache
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.csproj.CoreCompileInputs.cache
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.exe
+C:\Users\10784\Desktop\RestaurantManage-main\RestaurantManage-main\餐饮管理系统\obj\Debug\餐饮管理系统.pdb

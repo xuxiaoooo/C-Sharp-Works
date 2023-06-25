@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bace2455-7481-42e0-8357-ab50f9c87355": {
+      "ProjectGuid": "bace2455-7481-42e0-8357-ab50f9c87355",
+      "DisplayName": "图书管理系统",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

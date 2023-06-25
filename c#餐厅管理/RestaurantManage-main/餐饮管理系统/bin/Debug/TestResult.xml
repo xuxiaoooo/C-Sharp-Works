@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\C4\项目\餐饮管理系统\bin\Debug\餐饮管理系统.exe" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-09-21" time="10:53:46">
+  <environment nunit-version="2.6.0.11240" clr-version="2.0.50727.3053" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="E:\C4\项目\餐饮管理系统\bin\Debug" machine-name="pc108" user="Administrator" user-domain="pc108" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Assembly" name="E:\C4\项目\餐饮管理系统\bin\Debug\餐饮管理系统.exe" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+</test-results>

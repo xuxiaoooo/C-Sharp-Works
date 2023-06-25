@@ -1,0 +1,264 @@
+﻿<Window x:Class="HIS.main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:local="clr-namespace:HIS"
+        mc:Ignorable="d"
+        Title="门诊挂号子系统" Height="535" Width="800" WindowStartupLocation="CenterScreen" Icon="HOSPITAL.png">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="506" VerticalAlignment="Top" Width="108" Margin="0,0,0,-0.4">
+            <TreeView x:Name="tree"  Height="NaN"
+Width="NaN"
+pu:TreeViewHelper.TreeViewStyle="Chain"
+pu:TreeViewHelper.ItemHeight="40"
+pu:TreeViewHelper.SelectedForeground="#FF003FFF" Margin="0,100,0,0" >
+                <TreeViewItem Header="门诊挂号">
+                    <Button x:Name="guahaobtn" Background="White" Width="30" Content="挂号"  FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link" 
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="guahaobtn_Click"/>
+                    <Button x:Name="tuihao" Background="White" Width="30" Content="退号" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="tuihao_Click"/>
+                </TreeViewItem>
+                <TreeViewItem Header="收费结账">
+                    <Button x:Name="shoufei" Background="White" Width="30" Content="收费" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="shoufei_Click"/>
+                </TreeViewItem>
+                <TreeViewItem Header="统计查询">
+                    <Button x:Name="chaxun1" Background="White" Content="病人信息" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="chaxun1_Click"/>
+                    <Button x:Name="chaxun2" Background="White" Content="医生信息" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="chaxun2_Click"/>
+                    <Button x:Name="chaxun3" Background="White" Content="收费信息" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="chaxun3_Click"/>
+                </TreeViewItem>
+                <TreeViewItem Header="系统维护">
+                    <Button x:Name="xitongweihu" Background="White" Content="系统维护" FontFamily="{StaticResource FontAwesome}" pu:ButtonHelper.ClickStyle="Sink"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="Black"
+Foreground="Black"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Click="xitongweihu_Click"/>
+                </TreeViewItem>
+            </TreeView>
+            <Image HorizontalAlignment="Left" Height="77" VerticalAlignment="Top" Width="108" Source="HOSPITAL.png" Margin="0,23,0,0" MouseDown="Image_MouseDown"/>
+        </Grid>
+        <Grid x:Name="guahao" HorizontalAlignment="Left" Height="506" Margin="108,0,-0.4,-0.4" VerticalAlignment="Top" Width="686" Visibility="Collapsed">
+            <Label x:Name="riqi" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Height="37" Width="159" FontSize="18"/>
+            <ComboBox x:Name="xialakeshi"  Height="30"
+pu:ComboBoxHelper.Watermark="选择科室"
+pu:ComboBoxHelper.Icon="&#xf185;"
+pu:ComboBoxHelper.HoverBackground="#1EB5B5B5"
+pu:ComboBoxHelper.SelectedBackground="#32B5B5B5"
+pu:ComboBoxHelper.CornerRadius="15"
+pu:ComboBoxHelper.IsSearchTextBoxVisible="True"
+Margin="36,70,522,406" >
+                <Button x:Name="yanke" Content="眼科" Click="yanke_Click" Background="White" Foreground="Black" FontSize="18"/>
+                <Button x:Name="erbihouke" Background="White" Content="耳鼻喉科" Foreground="Black" FontSize="18" Click="erbihouke_Click"/>
+                <Button x:Name="guwaike" Background="White" Content="骨外科" Foreground="Black" FontSize="18" Click="guwaike_Click"/>
+                <Button x:Name="shenjingwaike" Background="White" Content="神经外科" Foreground="Black" FontSize="18" Click="shenjingwaike_Click"/>
+                <Button x:Name="xinxiongwaike" Background="White" Content="心胸外科" Foreground="Black" FontSize="18" Click="xinxiongwaike_Click"/>
+                <Button x:Name="huxineike" Background="White" Content="呼吸内科" Foreground="Black" FontSize="18" Click="huxineike_Click"/>
+                <Button x:Name="xiaohuaneike" Background="White" Content="消化内科" Foreground="Black" FontSize="18" Click="xiaohuaneike_Click"/>
+                <Button x:Name="xinxueguanneike" Background="White" Content="心血管内科" Foreground="Black" FontSize="18" Click="xinxueguanneike_Click"/>
+                <Button x:Name="chanke" Background="White" Content="产科" Foreground="Black" FontSize="18" Click="chanke_Click"/>
+            </ComboBox>
+            <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="93" Margin="36,129,0,0" VerticalAlignment="Top" Width="375" AutoGenerateColumns="False" SelectionMode="Single" SelectionChanged="datagrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="姓名" Binding="{Binding DNAME}" CanUserResize="False" Width="125"/>
+                    <DataGridTextColumn Header="职称" Binding="{Binding DLEVEL}" CanUserResize="False" Width="125"/>
+                    <DataGridTextColumn Header="性别" Binding="{Binding DSEX}" CanUserResize="False" Width="125"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBox x:Name="pno"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="病人编号"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="36,256,450,220" />
+            <TextBox x:Name="pname"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="病人姓名"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="280,256,206,220" />
+            <pu:DateTimePicker x:Name="datetimepicker"  Width="200"
+Height="30"
+DateTimePickerMode="DateTime"
+MaxDate="2020-06-29"
+MinDate="2020-04-29"
+ThemeBrush="#3F3F3F" Margin="36,308,450,168" />
+            <Button x:Name="guahaodirectbtn"  Height="30"
+Width="150"
+Content="挂号"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF3F3F3F"
+Foreground="#FF3F3F3F"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Margin="45,458,491,18" Click="guahaodirectbtn_Click"/>
+            <TextBox x:Name="sheetid"  Height="30"
+                Width="200"
+                pu:TextBoxHelper.Watermark="挂号编号"
+                pu:TextBoxHelper.FocusedBorderBrush="#000000"
+                pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="280,308,206,168" />
+            <TextBox x:Name="beizhu" HorizontalAlignment="Left" Height="85" Margin="36,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" pu:TextBoxHelper.Watermark="备注"/>
+            <Grid HorizontalAlignment="Left" Height="100" Margin="113,70,0,0" VerticalAlignment="Top" Width="100"/>
+        </Grid>
+        <Grid x:Name="退号" Margin="108,0,-0.4,-0.4" Visibility="Collapsed">
+            <Label Content="退号" HorizontalAlignment="Left" Margin="36,48,0,0" VerticalAlignment="Top" Height="34" Width="51" FontSize="20"/>
+            <TextBox x:Name="guahaobianhao"
+pu:TextBoxHelper.Watermark="挂号编号"
+pu:TextBoxHelper.Icon="&#xf11c;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000"
+pu:TextBoxHelper.CornerRadius="15" Margin="36,179,433,276" />
+            <Button x:Name="tuihaobtn"
+Content="确认退号"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF3F3F3F"
+Foreground="#FF3F3F3F"
+pu:ButtonHelper.HoverBrush="#3F3F3F"
+pu:ButtonHelper.CornerRadius="15" Margin="36,265,563,196" Click="tuihaobtn_Click" />
+        </Grid>
+        <Grid x:Name="shoufeigrid" HorizontalAlignment="Left" Height="506" Margin="113,0,-0.4,-0.4" VerticalAlignment="Top" Width="681" Visibility="Collapsed">
+            <Label Content="收费" HorizontalAlignment="Left" Margin="34,10,0,0" VerticalAlignment="Top" Height="37" Width="119" FontSize="20"/>
+            <TextBox x:Name="chufanghao"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="处方号"
+pu:TextBoxHelper.Icon="&#xf2cc;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="34,69,447,407" />
+            <TextBox x:Name="bingrenbianhao"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="病人编号"
+pu:TextBoxHelper.Icon="&#xf2ba;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="34,104,447,372" />
+            <TextBox x:Name="yishengbianhao"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="医生编号"
+pu:TextBoxHelper.Icon="&#xf1ae;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="34,139,447,337" />
+            <TextBox x:Name="yaopinhuafei"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="药品花费"
+pu:TextBoxHelper.Icon="&#xf1ce;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="34,174,447,302" />
+            <TextBox x:Name="wenzhenfeiyong"  Height="30"
+Width="200"
+pu:TextBoxHelper.Watermark="问诊费用"
+pu:TextBoxHelper.Icon="&#xf1db;"
+pu:TextBoxHelper.FocusedBorderBrush="#000000"
+pu:TextBoxHelper.FocusedShadowColor="#000000" Margin="34,209,447,267" TextChanged="wenzhenfeiyong_TextChanged" />
+            <Label x:Name="总费用" Content="" HorizontalAlignment="Left" Margin="34,258,0,0" VerticalAlignment="Top" Height="40" Width="200" FontSize="18"/>
+            <ComboBox x:Name="zhifufangshi"
+Width="200"
+pu:ComboBoxHelper.Watermark="支付方式"
+pu:ComboBoxHelper.Icon="&#xf128;"
+pu:ComboBoxHelper.HoverBackground="#1EB5B5B5"
+pu:ComboBoxHelper.SelectedBackground="#32B5B5B5"
+pu:ComboBoxHelper.CornerRadius="15" Margin="34,321,447,124" >
+                <Button x:Name="zhifubao" Content="支付宝" pu:ButtonHelper.Icon="&#xf2a3;" Foreground="Black" Background="White" Click="zhifubao_Click" Width="200" HorizontalContentAlignment="Left"/>
+                <Button x:Name="weixin" Content="微信支付" pu:ButtonHelper.Icon="&#xf1d7;" Background="White" Foreground="Black" Click="weixin_Click" Width="200" HorizontalContentAlignment="Left"/>
+                <Button x:Name="yinhangka" Content="银行卡" pu:ButtonHelper.Icon="&#xf09d;" Background="White" Foreground="Black" Click="yinhangka_Click" Width="200" HorizontalContentAlignment="Left"/>
+            </ComboBox>
+            <Button x:Name="shoufeibtn"
+Content="确认收费"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FFFF0026"
+Foreground="#FFFF0026"
+pu:ButtonHelper.HoverBrush="#FF0026"
+pu:ButtonHelper.CornerRadius="15" Margin="34,419,542,47" Click="shoufeibtn_Click" />
+        </Grid>
+        <Grid x:Name="chaxun1grid" HorizontalAlignment="Left" Height="506" Margin="113,0,-0.4,-0.4" VerticalAlignment="Top" Width="681" Visibility="Collapsed">
+            <DataGrid x:Name="bingrendatagrid" HorizontalAlignment="Left" Height="456" Margin="30,23,0,0" VerticalAlignment="Top" Width="626" AutoGenerateColumns="False" CanUserResizeColumns="False" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="编号" Binding="{Binding PNO}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="姓名" Binding="{Binding PNAME}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="身份证" Binding="{Binding ID_NO}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="年龄" Binding="{Binding PAGE}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="性别" Binding="{Binding PSEX}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="电话" Binding="{Binding PHONE}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="地址" Binding="{Binding ADDRESS}" CanUserResize="False"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Grid HorizontalAlignment="Left" Height="100" Margin="187,185,0,0" VerticalAlignment="Top" Width="100"/>
+        </Grid>
+        <Grid x:Name="chaxun2grid" HorizontalAlignment="Left" Height="506" Margin="113,0,-0.4,-0.4" VerticalAlignment="Top" Width="681" Visibility="Collapsed">
+            <DataGrid x:Name="yishengdatagrid" HorizontalAlignment="Left" Height="426" Margin="33,39,0,0" VerticalAlignment="Top" Width="612" ColumnWidth="*" CanUserResizeColumns="False" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="编号" Binding="{Binding DNO}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="姓名" Binding="{Binding DNAME}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="年龄" Binding="{Binding DAGE}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="性别" Binding="{Binding DSEX}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="所属科室" Binding="{Binding DEPART_ID}" CanUserResize="False"/>
+                    <DataGridTextColumn Header="职称" Binding="{Binding DLEVEL}" CanUserResize="False"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Grid HorizontalAlignment="Left" Height="100" Margin="202,249,0,0" VerticalAlignment="Top" Width="100"/>
+        </Grid>
+        <Grid x:Name="chaxun3grid" HorizontalAlignment="Left" Height="506" Margin="113,0,-0.4,-0.4" VerticalAlignment="Top" Width="681" Visibility="Collapsed">
+            <Grid x:Name="pie1grid" HorizontalAlignment="Left" Height="281" Margin="23,131,0,0" VerticalAlignment="Top" Width="281">
+                <lvc:PieChart Name="Chart1" Grid.Row="1" Series="{Binding SeriesCollection}" 
+                      LegendLocation="Right" InnerRadius="100" Margin="0 15">
+                    <lvc:PieChart.ChartLegend>
+                        <lvc:DefaultLegend BulletSize="20"></lvc:DefaultLegend>
+                    </lvc:PieChart.ChartLegend>
+                    <lvc:PieChart.DataTooltip>
+                        <lvc:DefaultTooltip BulletSize="30"></lvc:DefaultTooltip>
+                    </lvc:PieChart.DataTooltip>
+                </lvc:PieChart>
+            </Grid>
+            <Grid x:Name="pie2grid" HorizontalAlignment="Left" Height="281" Margin="342,131,0,0" VerticalAlignment="Top" Width="281">
+                <lvc:PieChart Name="Chart2" Grid.Row="1" Series="{Binding SeriesCollection1}" 
+                      LegendLocation="Right" InnerRadius="100" Margin="0 15">
+                    <lvc:PieChart.ChartLegend>
+                        <lvc:DefaultLegend BulletSize="20"></lvc:DefaultLegend>
+                    </lvc:PieChart.ChartLegend>
+                    <lvc:PieChart.DataTooltip>
+                        <lvc:DefaultTooltip BulletSize="30"></lvc:DefaultTooltip>
+                    </lvc:PieChart.DataTooltip>
+                </lvc:PieChart>
+            </Grid>
+            <Label Content="药品收入方式及明细" HorizontalAlignment="Left" Margin="65,90,0,0" VerticalAlignment="Top" Height="41" Width="197" FontSize="20"/>
+            <Label Content="问诊收入方式及明细" HorizontalAlignment="Left" Margin="374,90,0,0" VerticalAlignment="Top" Height="41" Width="197" FontSize="20"/>
+        </Grid>
+        <Grid x:Name="系统维护grid" HorizontalAlignment="Left" Height="506" Margin="113,0,-0.4,-0.4" VerticalAlignment="Top" Width="681">
+            <Label Content="系统维护" HorizontalAlignment="Left" Margin="35,27,0,0" VerticalAlignment="Top" Height="42" Width="103" FontSize="20"/>
+            <Button x:Name="fankuibtn"
+Width="99"
+Content="提交反馈"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF00B2FF"
+Foreground="#FF00B2FF"
+pu:ButtonHelper.HoverBrush="#00B2FF"
+pu:ButtonHelper.CornerRadius="8" Margin="39,352,543,119" Background="{x:Null}" Click="fankuibtn_Click" />
+            <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="208" Margin="35,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="607" pu:TextBoxHelper.Watermark="请仔细描述你的问题" FontSize="16" VerticalContentAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

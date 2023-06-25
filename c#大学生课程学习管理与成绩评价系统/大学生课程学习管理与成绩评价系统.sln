@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大学生课程学习管理与成绩评价系统", "大学生课程学习管理与成绩评价系统\大学生课程学习管理与成绩评价系统.csproj", "{61F261AA-6D8F-4108-B2BD-22DAAE07D003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F261AA-6D8F-4108-B2BD-22DAAE07D003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F261AA-6D8F-4108-B2BD-22DAAE07D003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F261AA-6D8F-4108-B2BD-22DAAE07D003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F261AA-6D8F-4108-B2BD-22DAAE07D003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43AD39C3-24F7-4C45-907E-9D65DFA44378}
+	EndGlobalSection
+EndGlobal

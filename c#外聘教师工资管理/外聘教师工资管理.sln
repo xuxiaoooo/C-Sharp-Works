@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "外聘教师工资管理", "外聘教师工资管理\外聘教师工资管理.csproj", "{FF5386FE-2CD8-4AE7-BF73-76D2918C2B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF5386FE-2CD8-4AE7-BF73-76D2918C2B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5386FE-2CD8-4AE7-BF73-76D2918C2B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5386FE-2CD8-4AE7-BF73-76D2918C2B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5386FE-2CD8-4AE7-BF73-76D2918C2B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0F4F590-BC9C-4EE8-9DB3-73E39BC1BDD4}
+	EndGlobalSection
+EndGlobal

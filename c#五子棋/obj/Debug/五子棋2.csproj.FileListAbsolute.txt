@@ -1,0 +1,42 @@
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\ResolveAssemblyReference.cache
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\五子棋2.main.resources
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\五子棋2.Properties.Resources.resources
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\五子棋2.csproj.GenerateResource.Cache
+G:\Visual C#\程序\五子棋\五子棋2\bin\Debug\五子棋2.exe
+G:\Visual C#\程序\五子棋\五子棋2\bin\Debug\五子棋2.pdb
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\五子棋2.exe
+G:\Visual C#\程序\五子棋\五子棋2\obj\Debug\五子棋2.pdb
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.exe
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.pdb
+C:\Users\user\Desktop\五子棋2\bin\Debug\五子棋2.exe
+C:\Users\user\Desktop\五子棋2\bin\Debug\五子棋2.pdb
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.main.resources
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.Properties.Resources.resources
+C:\Users\user\Desktop\五子棋2\obj\Debug\五子棋2.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.exe
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.pdb
+C:\Users\user\Desktop\五子棋\五子棋2\bin\Debug\五子棋2.exe
+C:\Users\user\Desktop\五子棋\五子棋2\bin\Debug\五子棋2.pdb
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.main.resources
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.Properties.Resources.resources
+C:\Users\user\Desktop\五子棋\五子棋2\obj\Debug\五子棋2.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\五子棋\五子棋\bin\Debug\五子棋2.exe
+C:\Users\asus\Desktop\五子棋\五子棋\bin\Debug\五子棋2.pdb
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.main.resources
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.Properties.Resources.resources
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.csproj.GenerateResource.cache
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.exe
+C:\Users\asus\Desktop\五子棋\五子棋\obj\Debug\五子棋2.pdb
+D:\桌面文件\五子棋\bin\Debug\五子棋2.exe
+D:\桌面文件\五子棋\bin\Debug\五子棋2.pdb
+D:\桌面文件\五子棋\obj\Debug\五子棋2.csproj.AssemblyReference.cache
+D:\桌面文件\五子棋\obj\Debug\五子棋2.main.resources
+D:\桌面文件\五子棋\obj\Debug\五子棋2.Properties.Resources.resources
+D:\桌面文件\五子棋\obj\Debug\五子棋2.csproj.GenerateResource.cache
+D:\桌面文件\五子棋\obj\Debug\五子棋2.csproj.CoreCompileInputs.cache
+D:\桌面文件\五子棋\obj\Debug\五子棋2.exe
+D:\桌面文件\五子棋\obj\Debug\五子棋2.pdb

@@ -1,0 +1,12 @@
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.csproj.AssemblyReference.cache
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.csproj.SuggestedBindingRedirects.cache
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.Form1.resources
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.Login.resources
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.Properties.Resources.resources
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.csproj.GenerateResource.cache
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.csproj.CoreCompileInputs.cache
+C:\Users\10784\Desktop\dms\dms\bin\Debug\dms.exe.config
+C:\Users\10784\Desktop\dms\dms\bin\Debug\dms.exe
+C:\Users\10784\Desktop\dms\dms\bin\Debug\dms.pdb
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.exe
+C:\Users\10784\Desktop\dms\dms\obj\Debug\dms.pdb

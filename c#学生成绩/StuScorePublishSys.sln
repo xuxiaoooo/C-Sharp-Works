@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuScorePublishSys", "StuScorePublishSys\StuScorePublishSys.csproj", "{C55C1B1D-5FEE-4378-9154-A36C1D102FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55C1B1D-5FEE-4378-9154-A36C1D102FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55C1B1D-5FEE-4378-9154-A36C1D102FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55C1B1D-5FEE-4378-9154-A36C1D102FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55C1B1D-5FEE-4378-9154-A36C1D102FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7041B6B-8D40-4C31-96B5-7A386AEC3A5A}
+	EndGlobalSection
+EndGlobal

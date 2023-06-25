@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书信息修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书信息添加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书借阅.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书归还.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书类别修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="图书类别增加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="新书订阅.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="更改口令.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="用户修改与删除.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="用户添加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="读者信息修改与删除.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="读者信息添加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="验收新书.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

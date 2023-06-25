@@ -1,0 +1,12 @@
+E:\C#工作站\文本编辑器\文本编辑器\bin\Debug\文本编辑器.exe.config
+E:\C#工作站\文本编辑器\文本编辑器\bin\Debug\文本编辑器.exe
+E:\C#工作站\文本编辑器\文本编辑器\bin\Debug\文本编辑器.pdb
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.Form1.resources
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.Properties.Resources.resources
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.csproj.GenerateResource.cache
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.csproj.CoreCompileInputs.cache
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.exe
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.pdb
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.csprojAssemblyReference.cache
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.FindForm.resources
+E:\C#工作站\文本编辑器\文本编辑器\obj\Debug\文本编辑器.FontForm.resources

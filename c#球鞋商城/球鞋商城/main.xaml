@@ -1,0 +1,73 @@
+﻿<Window x:Class="球鞋商城.main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:球鞋商城"
+        mc:Ignorable="d"
+        Title="主页" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="2.png"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="NIKO球鞋网上商城" FontSize="36" Margin="160,0,153.6,355" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Button
+pu:ButtonHelper.WaitingContent="{x:Null}"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Outline"
+BorderBrush="#963F3F3F"
+Foreground="#963F3F3F"
+pu:ButtonHelper.HoverBrush="#3F3F3F"
+pu:ButtonHelper.CornerRadius="30" Margin="10,70,730.6,297" Background="{x:Null}" >
+            <Image Name="headimage"></Image>
+        </Button>
+        <Label Name="idlabel" FontSize="22" Margin="85,70,628.6,297"/>
+        <Button x:Name="btnyouhui"
+Content="点击领取50元优惠券"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Link"
+BorderBrush="#963F3F3F"
+Foreground="#96000000"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Margin="240,70,233.6,295" FontSize="22" Click="btnyouhui_Click" />
+        <Button x:Name="btngouwuche"
+Content="购物车"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+Background="#C8FFFFFF"
+pu:ButtonHelper.HoverBrush="#3F3F3F" Margin="10,145,690.6,240" Foreground="#FF0087F6" Click="btngouwuche_Click" />
+        <Button x:Name="btngoumai"
+Content="商品购买"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF1600FF"
+Foreground="#FF1600FF"
+pu:ButtonHelper.HoverBrush="#1600FF" Margin="10,235,653.6,150" Click="btngoumai_Click" />
+        <Button
+Content="售后服务"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF1600FF"
+Foreground="#FF1600FF"
+pu:ButtonHelper.HoverBrush="#1600FF" Margin="10,275,653.6,110" Click="Button_Click" />
+        <Button
+Content="我的订单"
+pu:ButtonHelper.ClickStyle="Sink"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF1600FF"
+Foreground="#FF1600FF"
+pu:ButtonHelper.HoverBrush="#1600FF" Margin="10,315,653.6,70" Click="Button_Click_1" />
+        <Image Source="x1.jpg" Margin="200,130,344.6,175" />
+        <Image Source="x2.jpg" Margin="486,130,58.6,175" />
+        <Image Source="x3.jpg" Margin="200,275,344.6,30" />
+        <Image Source="x4.jpg" Margin="486,275,58.6,30" />
+        <Label Content="NIKO奥利奥限定   799元" Margin="250,245,388.6,145"/>
+        <Label Content="NIKO绿钩足球鞋   699元" Margin="545,245,93.6,145"/>
+        <Label Content="匡威兔八哥限定  499元" Margin="250,387,388.6,0"/>
+        <Label Content="Abibas关羽限定  999元" Margin="545,387,93.6,0"/>
+    </Grid>
+</Window>

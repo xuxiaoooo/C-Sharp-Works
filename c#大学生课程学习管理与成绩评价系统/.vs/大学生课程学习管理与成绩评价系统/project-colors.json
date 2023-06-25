@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61f261aa-6d8f-4108-b2bd-22daae07d003": {
+      "ProjectGuid": "61f261aa-6d8f-4108-b2bd-22daae07d003",
+      "DisplayName": "大学生课程学习管理与成绩评价系统",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,41 @@
+﻿<Window x:Class="球鞋商城.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:球鞋商城"
+        mc:Ignorable="d"
+        Title="NIKO球鞋网上商城" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="1.png"/>
+        </Grid.Background>
+        <TextBox x:Name="txid"
+pu:TextBoxHelper.FocusedBorderBrush="#B5B5B5"
+pu:TextBoxHelper.FocusedShadowColor="#B5B5B5"
+pu:TextBoxHelper.CornerRadius="7"
+pu:TextBoxHelper.IsClearButtonVisible="True" Margin="305,185,255.6,200" />
+        <PasswordBox x:Name="txps"
+pu:PasswordBoxHelper.FocusedBorderBrush="#B5B5B5"
+pu:PasswordBoxHelper.FocusedShadowColor="#B5B5B5"
+pu:PasswordBoxHelper.CornerRadius="8"
+pu:PasswordBoxHelper.IsShowPwdButtonVisible="True" Margin="305,245,255.6,140" Background="White" />
+        <Button x:Name="btnlogin"
+Content="确定"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF0082FF"
+Foreground="#FF0082FF"
+pu:ButtonHelper.HoverBrush="#0082FF"
+pu:ButtonHelper.CornerRadius="5" Margin="305,305,383.6,80" Click="btnlogin_Click" />
+        <Button x:Name="btnreg"
+Content="注册"
+FontFamily="{StaticResource FontAwesome}"
+pu:ButtonHelper.ButtonStyle="Hollow"
+BorderBrush="#FF0082FF"
+Foreground="#FF0082FF"
+pu:ButtonHelper.HoverBrush="#0082FF"
+pu:ButtonHelper.CornerRadius="5" Margin="433,305,255.6,80" Click="btnreg_Click" />
+    </Grid>
+</Window>
